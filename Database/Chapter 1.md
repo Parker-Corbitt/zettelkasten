@@ -43,7 +43,3 @@
 	- Said description is called meta-data
 	- Allows for increased ease of use when working with other DB apps
 - *Program-Data Independence*: A concept providing insulation between the 
-
-Do you recognize changes
-
-BlaBlaBla
