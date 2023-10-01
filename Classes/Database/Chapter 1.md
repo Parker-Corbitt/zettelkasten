@@ -1,5 +1,5 @@
 ***
-#### <u>Databases and Database Users</u>
+#### <u>Characteristics of Databases and Database Users</u>
 ###### Definitions
 - *Database*: A collection of related data
 - *Data*: Known facts that can be recorded and have an implicit meaning
@@ -42,6 +42,34 @@
 - *Self Describing Nature*: Typically signified by a catalog, which itself stores the description of the database (types, constraints, etc)
 	- Said description is called meta-data
 	- Allows for increased ease of use when working with other DB apps
-- *Program-Data Independence*: A concept providing insulation between the 
+- *Program-Data Independence*: A concept describing the insulation between the catalog, and the programs that access it
+	- This allows for the changing of structures and storage organization without having the change the access applications
+- *Data Abstraction*: Done with a data model, which hides storage details, and presents the users with a conceptual view of the data
+	- Programs refer to the conceptual views, and not directly to base storage.
+- *Multiple Data Views*:  Each person should be able to create their own view, only with information that matters to them
+- *Sharing of Data*: Should allow for concurrent multi-user access, providing control for transaction flow in order to ensure data integrity
 
-Test
+##### Database Users
+- *Database Administrators*: Handles authentication, access, monitors user activity, acquires resources, and monitors how various apps perform
+- *Database Designers*: Defines the constraints, structures, content, functions, and transactions able to be made against the database. *Must communicate with end users!*
+- *End Users*: Use the database to primarily make queries, along with other types of operations
+	- Casual: Only occasionally access database, for relatively small tasks
+	- Naive: Not quite ignorant of the capabilities of the database, but very close  to being so
+	- Advanced: Able to use personal databases to an efficient degree, such as tax software
+	- Sophisticated: Familiar with the capabilities of a database, and frequently use DB related packages
+- *BTS*: DBMS designer & implementer, tool developer, maintainer
+
+##### Implications of Databases
+*Advantages*
+- Able to easily control redundancy on both storage and development sides
+- Management of authentication is much easier
+- Provides a general increase in efficiency (if well implemented)
+- Provides easy access to backup, recovery, and presentation tools
+- Enforces integrity constraints & general standards in a more manageable way
+- Drastically increases availability of information
+
+*Disadvantages
+- High initial investment
+- Overhead of understanding the DMBS and related programs can be substantial
+	- Especially if implementation is clunky
+- Unavailable for use in embedded systems due to significant overhead
