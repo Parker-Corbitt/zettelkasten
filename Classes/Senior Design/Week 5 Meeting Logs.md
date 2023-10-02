@@ -42,8 +42,8 @@ Damon - Environment setup & testing
 Jude - Environment setup & testing
 Asa - Environment setup & testing
 
-
-# Date: 10 - 1 - 2023
+***
+## Date: 10 - 1 - 2023
 
 **Agenda**
 - Review SRS document. Discuss and fill out parts that are still left in template form, and review parts that have been filled out. Revise as needed.
