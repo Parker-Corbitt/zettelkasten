@@ -80,7 +80,8 @@ MQTT (Message Queuing Telemetry Transport) is the communication protocol of this
 ### External Libraries & Sensors
 ***
 #### Libraries
-pigpio:
-mosquittopp:
+pigpio
+mosquittopp
+make
 
 #### Sensors
